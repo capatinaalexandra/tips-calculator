@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tipscalculator.css">
+        <title>Tips calculator Project</title>
+    </head>
+
+
+
+    <body>
+        <div class="containerDisplay">
+            <div class="containerMare">
+            <div class="containerCalculator">
+                <div class="containerCondition">
+                    <div id="bill">Bill($): </div>
+                    <div id="line"></div>
+                    <div id="tips">Tips(%): </div>
+                    <div id="line"></div>
+                    <div id="numbOfPers">Number of Person: </div>
+                    <div id="line"></div>
+                    </div>
+                <div class="containerText">
+                    <input type="text" id="valueOfBill" placeholder="Bill($)">
+                    <select id="tipsProcent" placeholder="Tips%">
+                        <option>Tips(%)</option>
+                        <option value="0.25">25%</option>
+                        <option value="0.20">20%</option>
+                        <option value="0.15">15%</option>
+                        <option value="0.10">10%</option>
+                        <option value="0.05">5%</option>
+                    </select>
+                    <input type="text" id="persNumb" placeholder="Person">
+                </div>
+                </div>
+                <div class="containerButton">
+                    <button onclick="resetValue()" id="btnReset">Reset</button>
+                    <button onclick="calculateTips()" id="btnCalculate">Calculate</button>
+                </div>
+         
+            <div class="result">
+            <div id="TipsAmount">Tips Amount: </div>
+            <div id="value">0</div>
+
+        </div>
+        </div>
+
+<script src="./tipscalculator.js"></script>
+
+
+    </body>
+</html>

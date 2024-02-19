@@ -1,0 +1,122 @@
+body {
+height: 70vh;
+    font-size: 1.2rem;
+    background-color: rgb(175, 173, 173);
+  }
+
+.containerDisplay{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  
+}
+
+.containerMare{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 20px;
+    height:40vh ;
+    width: 60vh;
+    background-color: #8FBC8F
+  
+  }
+
+.containerCalculator{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height:30vh ;
+    width: 60vh;
+
+}
+
+.containerCondition{
+    display: flex;
+    flex-direction: column;
+    width: 20vh;
+}
+#bill{
+    margin-top: 20px ;
+}
+
+
+#tips{
+    margin-top: 40px ;
+}
+
+#numbOfPers{
+    margin-top: 50px ;
+}
+#line{
+    width: 50vh;
+    height: 1.5px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.containerText{
+    display: inline-block;
+    width: 15vh;
+    margin-top: 20px;
+    margin-right: 40px;
+  
+ 
+
+}
+#valueOfBill{
+    border-radius: 4px;
+    border-radius: 4px;
+    width: 20vh;
+    height: 35px;
+}
+#tipsProcent{
+    margin-top: 40px ;
+    border-radius: 4px;
+    width: 20vh;
+    height: 35px;
+
+}
+#persNumb{
+    margin-top: 50px ;
+    border-radius: 4px;
+    border-radius: 4px;
+    width: 20vh;
+    height: 35px;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: space-around;
+}
+
+#btnReset{
+    width: 20vh;
+    height: 5vh;
+    margin-left: 28px;
+    border-radius: 4px;
+    background-color:yellow;
+    border-color: yellow;
+   
+    font-size:medium;
+}
+
+#btnCalculate{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 3px;
+    margin-left:30px;
+    background-color:blue;
+    border-color:blue;
+    color:white;
+    font-size:medium;
+}
+
+.result{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
